@@ -10,29 +10,21 @@ const init = () => {
 };
 init();
 const changeWidth = () => {
-  if (playstationWidth == true) {
-    playstation.style.width = "80%";
-    xbox.style.width = "20%";
-
-    playstationWidth = false;
-  } else {
-    playstation.style.width = "50%";
-    xbox.style.width = "50%";
-
-    playstationWidth = true;
-  }
+  playstation.style.width = "80%";
+  xbox.style.width = "20%";
+  playstationWidth = false;
 };
-playstation.addEventListener("mouseover", changeWidth);
+playstation.addEventListener("mouseenter", changeWidth);
 
 const changeWidth2 = () => {
-  if (xboxWidth == true) {
-    xbox.style.width = "80%";
-    playstation.style.width = "20%";
-    xboxWidth = false;
-  } else {
-    xbox.style.width = "50%";
-    playstation.style.width = "50%";
-    xboxWidth = true;
-  }
+  xbox.style.width = "80%";
+  playstation.style.width = "20%";
+  xboxWidth = false;
 };
-xbox.addEventListener("mouseover", changeWidth2);
+xbox.addEventListener("mouseenter", changeWidth2);
+const changeWidth3 = () => {
+  playstation.style.width = "50%";
+  xbox.style.width = "50%";
+};
+playstation.addEventListener("mouseleave", changeWidth3);
+xbox.addEventListener("mouseleave", changeWidth3);

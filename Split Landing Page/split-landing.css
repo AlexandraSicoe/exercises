@@ -19,7 +19,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: all 500ms ease-in;
+  transition: all 1s ease-in-out;
 }
 .xbox {
   display: flex;
@@ -32,7 +32,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: all 500ms ease-in;
+  transition: all 1s ease-in-out;
 }
 h2 {
   margin-top: 180px;
