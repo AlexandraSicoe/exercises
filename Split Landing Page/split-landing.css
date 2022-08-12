@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.playstation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-image: url(./playstation.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in;
+}
+.xbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  background-image: url(./Xbox.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in;
+}
+h2 {
+  margin-top: 180px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  padding: 60px;
+  color: white;
+}
+button {
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 15px;
+  width: 200px;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
