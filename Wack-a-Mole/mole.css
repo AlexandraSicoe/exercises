@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn {
+  height: 40px;
+  width: 50px;
+  background-image: url("./mole.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-style: none;
+  border: 0;
+  cursor: pointer;
+  position: fixed;
+  background-color: transparent;
+}
+.score {
+  top: 0;
+  right: 0;
+  position: fixed;
+  margin-right: 30px;
+  margin-top: 5px;
+  font-family: "DynaPuff";
+  font-size: 40px;
+}
